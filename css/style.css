@@ -35,9 +35,22 @@ a{
   color: #fff;
   margin: 20px 0;
 }
-#home .banner-left h1 span{
+#home .banner-left h1 .name{
   color: #ff014f;
 }
+#home .banner-left h2{
+  font-size: 40px;
+  color: #fff;
+}
+/* typed js */
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
 #home .banner-left p{
   font-size: 16px;
   line-height: 30px;
@@ -127,3 +140,10 @@ a{
 
 
 /* banner section end */
+
+
+
+
+
+
+

@@ -46,8 +46,6 @@ a{
   background: transparent;
   color: #ff014f;
   border-radius: 50%;
-  line-height: 50px;
-  text-align: center;
   cursor: pointer;
   bottom: 65px;
   right: 30px;
@@ -60,8 +58,8 @@ a{
 
 .down-top a:hover{
   background: #ff014f;
-  color: #212428;
-  border: 2px solid #212428;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
 /* banner section start */

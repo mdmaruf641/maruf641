@@ -44,6 +44,14 @@
   #home .banner-right .banner-img .bnr-img{
     margin-left: 40px;
   }
+  
+  /* back to top button */
+  .down-top a{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+  }
 
   /* services part */
   #service .service-heading{

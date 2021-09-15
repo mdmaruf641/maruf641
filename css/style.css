@@ -41,7 +41,7 @@ a{
 #home{
   background-color: #212428;
   color: #c4cfde;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   padding-top: 80px;
 }
 #home .banner-left{
@@ -164,10 +164,88 @@ a{
     -10px -10px 19px #262a2e;
     border-radius: 6px;
 }
-
-
-
+.dvdr {
+  background-color: #000;
+  padding: 1px 0;
+  margin: 0;
+  margin-top: 50px;
+}
 /* banner section end */
+
+/* services section start */
+#service{
+  background-color: #212428;
+}
+#service .service-heading h6{
+  color: #ff014f;
+  font-size: 16px;
+}
+#service .service-heading h1{
+  font-size: 60px;
+  color: #C4CFDE;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+#service .services-item{
+  text-align: justify;
+}
+
+#service .service-main{
+  background-color: #212428;
+  color: #fff;
+  border: none;
+  box-shadow: 10px 10px 19px #1c1e22, -8px -9px 19px #2d3236;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#service .service-main:hover{
+  background-image: linear-gradient(145deg, #23272b, #1e2024);
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
+}
+#service .service-main:hover .content{
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+#service .service-main:hover .service-arrow{
+  opacity: 1;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+  transform: translateY(-3px);
+  -webkit-transform: translateY(-3px);
+  -moz-transform: translateY(-3px);
+  -ms-transform: translateY(-3px);
+  -o-transform: translateY(-3px);
+}
+#service .services-item a{
+  font-size: 50px;
+  color: #ff014f;
+}
+#service .services-item h3{
+  color: #C4CFDE;
+}
+#service .service-arrow{
+  opacity: 0;
+}
+/* services section end */
 
 
 

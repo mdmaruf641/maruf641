@@ -45,6 +45,14 @@
   #home .banner-right .banner-img .bnr-img{
     margin-left: 40px;
   }
+
+  /* services part */
+  #service .service-heading{
+    text-align: center;
+  }
+  #service .service-heading h1{
+    font-size: 40px;
+  }
 }
 
 /* =====tablate version===== */
@@ -53,11 +61,53 @@
   .container{
     width: 100%;
   }
-  #home .banner-left{
-    padding-top: 60px;
-  }
-  #home .banner-left .social-title{
-    margin-top: 40px;
-  }
-
+    /* =====nav part===== */
+    .menu-ul{
+      background-color: #212428e8;
+    }
+    /* =====banner part===== */
+    #home .banner-left{
+      padding-top: 60px;
+    }
+    #home .banner-left h6{
+      letter-spacing: 1px;
+    }
+    #home .banner-left h1{
+      font-size: 35px;
+      margin: 15px 0;
+    }
+    #home .banner-left h2{
+      font-size: 30px;
+    }
+    #home .banner-left p{
+      font-size: 17px;
+      line-height: 26px;
+      font-weight: 500;
+      text-align: justify;
+    }
+    #home .banner-left .social-title{
+      margin-top: 40px
+    }
+    #home .banner-left .social-icon{
+      height: 45px;
+      width: 45px;
+      font-size: 25px;
+      line-height: 45px;
+    }
+    #home .banner-left .hire-btn{
+      margin-left: 60px;
+      padding: 5px 10px;
+      font-size: 20px;
+      font-weight: 500;
+    }
+    #home .banner-right .banner-img .bnr-img{
+      margin-left: 40px;
+    }
+    /* services part */
+    #service .service-heading{
+      text-align: center;
+    }
+    #service .service-heading h1{
+      font-size: 50px;
+    }
 }

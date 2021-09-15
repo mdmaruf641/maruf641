@@ -7,10 +7,30 @@ a{
 }
 
 /* nav bar start */
-.main-nav{
-  background-color: #212428;
-  
+#nav {
+  position: fixed;
+  z-index: 23;
+  width: 100%;
 }
+
+.sticky-bg {
+  height: 70px;
+  background-color: #212428f6;
+  animation: sticky 1s;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes sticky {
+  from {
+      top: -50px;
+  }
+
+  to {
+      top: 0;
+  }
+}
+
+
 .menu-item{
   color: #c4cfde !important;
   font-weight: 500 !important;
@@ -22,6 +42,7 @@ a{
   background-color: #212428;
   color: #c4cfde;
   padding-bottom: 80px;
+  padding-top: 80px;
 }
 #home .banner-left{
   padding-top: 100px;

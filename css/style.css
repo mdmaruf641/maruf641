@@ -102,7 +102,9 @@ a{
   -ms-transition: .4s;
   -o-transition: .4s;
 }
-
+#home .banner-left .social-icon:last-child{
+  margin-right: 0;
+}
 #home .banner-left .social-icon:hover{
   background-color: #1B1E22;
   transform: translateY(-3px);

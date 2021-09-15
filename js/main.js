@@ -59,4 +59,7 @@ $(function(){
 		// callback for reset
 		resetCallback: function() {}
 	});
+
+	// ===== WOW js =====
+	new WOW().init();
 });

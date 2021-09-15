@@ -4,11 +4,11 @@ $(function(){
 
 		var scrolling = $(this).scrollTop();
 
-		if(scrolling > 50){
-				$(".bottom-to-top").fadeIn(500);
+		if(scrolling > 350){
+				$(".down-top a").fadeIn(500);
 		}
 		else{
-				$(".bottom-to-top").fadeOut(500); 
+				$(".down-top a").fadeOut(500); 
 		}
 		// sticky menu //
 		if(scrolling > 100){
@@ -19,7 +19,7 @@ $(function(){
 		}
 	});
 
- $(".bottom-to-top").click(function(){
+ $(".down-top a").click(function(){
 		$('html, body').animate({
 				scrollTop:0
 		}, 2000);
